@@ -34,7 +34,9 @@ console.log("-----------------------\n");
   스토리 ->  변수 user에 해당 사용자의 이름이 저장되어 있다면?
                    이름을 저장하고,  없다면 닉네임 저장하시오.
 */
-let name; //이름이 저장되지 않음 
+//let name; //이름이 저장되지 않음 
+
+let name = "이정환"; //값이 저장되어 있음
 
 let nickname = "winterlood"; //닉네임 저장되어 있음 
 
@@ -42,6 +44,7 @@ let nickname = "winterlood"; //닉네임 저장되어 있음
 //코드작성
 let user = name   ??  nickname;
 //"winterlood"
+//"이정환"
 
 console.log(user);
 
